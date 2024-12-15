@@ -1,0 +1,75 @@
+.nav-item a:hover{
+    color: #009ad8 !important;
+    border: 2px solid #009ad8 !important;
+}
+.main-nav{ 
+    background-color: #1e202b;
+}
+.active{
+    color: #009ad8 !important;
+    border: 2px solid #009ad8 !important;
+}
+
+.main-section{
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-color: #1e202b;
+    padding-bottom: 50px;
+}
+
+.dateDiv{
+    background-color: #2e303d;
+}
+
+.currentDayWeather{
+    background-color: #323544;
+    padding-right: -12px;
+    padding-left: -12px;
+    height: 400px;
+}
+
+.nextDay1Date{
+    background-color: #222531;
+}
+
+.nextDay1Weather{
+    background-color: #272936;
+    height: 400px;
+}
+
+.nextDay2Date{
+    background-color: #2e303d;
+}
+
+.nextDay2Weather{
+    background-color: #323544;
+    height: 400px;
+}
+
+footer{
+    background-color: #272936;
+}
+.footer-input::placeholder {
+    color: #5e5f62;
+    opacity: 1;
+}
+.social-links a {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+    background: #1e202b;
+    color: #009ad8;
+    text-align: center;
+    transition: 0.3s ease;
+    font-size: 25px;
+}
+.social-links a:hover {
+    background: #009ad8;
+    color: white;
+}
+
+.wicon{
+    position: relative !important;
+    top: -25px !important;
+}
